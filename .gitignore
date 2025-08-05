@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log
+.DS_Store # macOS specific
+
+# Environment variables
+.env
+
+# Uploads directory (if any local temporary uploads occur)
+# Although you're uploading directly to Cloudinary, sometimes local
+# temporary directories might be created by Multer or other processes.
+# It's good practice to include this if you ever had a local 'uploads' folder.
+uploads/
+
+# Nodemon specific files
+.nodemonignore
+.env.local # If you use local environment overrides
+.env.development.local
+.env.test.local
+.env.production.local
+
+# npm package manager cache
+.npm/
+
+# Yarn package manager cache
+.yarn/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+dist/
+build/
+
+# Logs
+*.log
+logs/
